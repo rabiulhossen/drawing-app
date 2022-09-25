@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: sans-serif;
+}
+
 body
 {
      display: flex;
@@ -16,9 +25,23 @@ section{
      border-radius: 15px;
 }
 .tools-board{
-     width: 300px;
+     width: 230px;
      padding: 15px 20px 0;
 }
+.tools-board .row{
+     margin-bottom: 10px ;
+
+}
+.row .options{
+          list-style: none;
+      }
+      .row .options .option{
+          display: flex;
+          cursor: pointer;
+          align-items:center;
+          margin-bottom: 10px;
+      }
+
 .drawing-board{
      flex: 1;
 }
